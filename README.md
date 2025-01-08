@@ -55,7 +55,7 @@ Aviation Industry System, havayolu ve ulaşım rotalarını yönetmek için geli
 ### Uygulama Kurulumu
 ### 1. Projeyi Klonlayın
 ```bash
-git clone https://github.com/yourusername/aviation-industry.git
+git clone https://github.com/YusufKUSAR34/aviation-industry.git
 cd aviation.industry
 ```
 
