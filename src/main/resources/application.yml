@@ -1,0 +1,47 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aviation_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 10000ms
+      connect-timeout: 10000ms
+      client-type: lettuce
+  cache:
+    type: redis
+    redis:
+      cache-null-values: false
+      use-key-prefix: true
+      key-prefix: aviation_
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enable: true
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  expiration: 86400000 # 1 day in milliseconds
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.turkish.airlines.aviation.industry.security: DEBUG
+    org.springframework.security: DEBUG
