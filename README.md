@@ -1,4 +1,4 @@
-# Aviation Management System
+# Aviation Industry System
 
 ## Proje Hakkında
 Aviation Industry System, havayolu ve ulaşım rotalarını yönetmek için geliştirilmiş kapsamlı bir API sistemidir. Bu sistem, lokasyonlar arasındaki ulaşım seçeneklerini yönetmeyi, optimum rotalar bulmayı ve çeşitli transfer seçenekleriyle seyahat planlaması yapmayı sağlar.
