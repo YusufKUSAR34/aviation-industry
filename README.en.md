@@ -55,7 +55,7 @@ Aviation Industry System is a comprehensive API system developed to manage airli
 ### Application Setup
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/yourusername/aviation-industry.git
+git clone https://github.com/YusufKUSAR34/aviation-industry.git
 cd aviation.industry
 ```
 
